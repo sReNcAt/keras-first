@@ -32,8 +32,6 @@ def loadImage (inFileName, outType ) :
     if outType == "aList":
         return list(data)
 train = pd.read_csv('img.csv').values
-trainX = [[0]*1 for x in range(len(train))]
-nontrainX = [[0]*1 for x in range(len(train))]
 trainY=[]
 for i in range(0,len(train)):
     imgur = train[i][0]
