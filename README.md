@@ -1,3 +1,3 @@
 # keras-first
 
-This ddocument first learn Keras - backend tensorflow
+This document first learn Keras - backend tensorflow
